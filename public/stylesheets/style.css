@@ -5,3 +5,8 @@ body {
 a {
   color: #00b7ff;
 }
+#preview,
+#editor {
+  height: 300px;
+  width: 300px;
+}

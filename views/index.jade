@@ -1,0 +1,15 @@
+!!!
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    script(src='/js/jquery-1.7.2.min.js')
+    script(src='/js/prettify.js')
+    script(src='/js/showdown.js')
+    script(src='/js/wysiwym.js')
+    script(src='/js/application.js')
+  body
+    h1= title
+    p Welcome to #{title}
+    textarea#editor your text here
+    #preview
